@@ -1,0 +1,27 @@
+Good to know
+PEP8
+Logging
+Use Python3
+Bytes vs. Unicode (include discussion on code pages)
+List comprehsions
+Dicts
+Pip, don’t be afraid of using 3rd party libs
+Slicing
+Multiprocessing vs multithreading
+Pwntools
+Mbruteforce
+Logging
+Asm
+Rop
+Printf
+
+Crazy things
+Stack introspection
+Pre-instantiated ints
+Is vs equals
+logging
+
+
+Exploitable things
+Deserialization
+
