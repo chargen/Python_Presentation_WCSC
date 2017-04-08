@@ -30,6 +30,7 @@ def pickle_to_json(ifile, ofile):
     j = json.dumps(d)
     ofile.write("json:\n")
     ofile.write(j)
+    ofile.write("\n")
 
 class servhandler(SocketServer.StreamRequestHandler):
                     

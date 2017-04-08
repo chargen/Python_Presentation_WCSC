@@ -1,6 +1,6 @@
 # Python: Tips, Tricks, and Aberrations
 
-[presentation](https://docs.google.com/presentation/d/1gx5rrco8Ha7thLWT8SleLtG5zBSWY8kfWAZJvc7PQWE/edit?usp=sharing)
+[~~presentation~~](https://docs.google.com/presentation/d/1gx5rrco8Ha7thLWT8SleLtG5zBSWY8kfWAZJvc7PQWE/edit?usp=sharing)
 
 ## Good to know
 
@@ -92,7 +92,7 @@ PEP 8 mentions [PEP 484](https://www.python.org/dev/peps/pep-0484/) on type hint
 ### Logging
 OMG I love logging.
 
-[logging example](logging.py)
+[logging example](logging_example.py)
 
 ```
 >>> import logging_example
@@ -142,6 +142,8 @@ ZeroDivisionError: division by zero
 b'hello'
 >>> mystr.encode("cp1256")
 b'hello'
+>>> mystr.encode("utf-16")
+b'\xff\xfeh\x00e\x00l\x00l\x00o\x00'
 ```
 
 I need to actually learn this more....
@@ -151,6 +153,7 @@ I need to actually learn this more....
 Don’t be afraid of using 3rd party libs
 
 ### Multiprocessing vs Threading
+[example](processthread_example.py)
 
 ### Pwntools
 The best thing since sliced bread

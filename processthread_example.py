@@ -52,12 +52,13 @@ def naive_largest_prime(nmax=10000):
 if __name__ == '__main__':
     nruns = 20
 
-    # Run the task one at a time in the main process
+    # Run the task sequentially in the main process
     tstart = time.time()
     for run in range(nruns):
         naive_largest_prime()
     tend = time.time()
     print("Native: %f"%(tend - tstart))
+
 
     # Run as `nruns` paralellel Threads
     tsetup = time.time()
@@ -71,6 +72,7 @@ if __name__ == '__main__':
     tend = time.time()
     print("Threading: %f"%(tend - tstart))
     print("Threading raw: %f"%(tend - tprocess))
+
 
     # Run as `nruns` parallel Processes
     tsetup = time.time()
